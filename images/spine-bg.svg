@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1200' width='800' height='1200'>
+  <defs>
+    <linearGradient id='fade' x1='0' y1='0' x2='0' y2='1'>
+      <stop offset='0%' stop-color='#0b69d7' stop-opacity='0.08'/>
+      <stop offset='100%' stop-color='#00c2ff' stop-opacity='0.04'/>
+    </linearGradient>
+    <filter id='blur'>
+      <feGaussianBlur stdDeviation='2'/>
+    </filter>
+  </defs>
+  <rect width='800' height='1200' fill='url(#fade)'/>
+  <g transform='translate(350,60)' stroke='#0b69d7' stroke-opacity='0.20' fill='none' stroke-width='3' filter='url(#blur)'>
+    <!-- stylized spine curve -->
+    <path d='M50,0 C10,120 90,220 40,320 C-10,420 100,520 40,620 C-20,720 110,820 40,920 C-20,1020 90,1100 60,1200' />
+    <!-- vertebra-like arcs -->
+    <g stroke-width='2'>
+      <path d='M20,80 Q50,60 80,80' />
+      <path d='M10,140 Q50,120 90,140' />
+      <path d='M0,200 Q50,180 100,200' />
+      <path d='M-5,260 Q50,240 105,260' />
+      <path d='M-10,320 Q50,300 110,320' />
+      <path d='M-10,380 Q50,360 110,380' />
+      <path d='M-8,440 Q50,420 108,440' />
+      <path d='M-6,500 Q50,480 106,500' />
+      <path d='M-4,560 Q50,540 104,560' />
+      <path d='M-2,620 Q50,600 102,620' />
+      <path d='M0,680 Q50,660 100,680' />
+      <path d='M2,740 Q50,720 98,740' />
+      <path d='M4,800 Q50,780 96,800' />
+      <path d='M6,860 Q50,840 94,860' />
+      <path d='M8,920 Q50,900 92,920' />
+      <path d='M10,980 Q50,960 90,980' />
+      <path d='M12,1040 Q50,1020 88,1040' />
+      <path d='M14,1100 Q50,1080 86,1100' />
+    </g>
+  </g>
+</svg>
